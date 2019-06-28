@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : hw_cpp_project_MacOSX_GCC.cpp
 // Author      : David Kuang
-// Version     :
+// Version     : Updated by DK on Jun 28th 2019 due to ensure MacBook can update GitHub of mine
 // Copyright   : Your copyright notice_YHK2
 // Description : Hello World in C++, Ansi-style
 //============================================================================
