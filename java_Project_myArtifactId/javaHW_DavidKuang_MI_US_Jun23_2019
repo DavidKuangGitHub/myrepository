@@ -1,0 +1,15 @@
+import java.io.Console;
+
+public class javaHW_DavidKuang_MI_US_Jun23_2019 {
+	public static void main(String args[]) {
+		try {
+			Console myConsole = System.console();
+			System.out.println("This is a java demo HW by David Kuang on Jun 23rd 2019 in Michigan United States...");
+			myConsole.readLine();
+		} catch (NullPointerException myNPE) {
+			// myNPE.printStackTrace();
+		} catch (Exception myException) {
+			myException.printStackTrace();
+		}
+	}
+}
