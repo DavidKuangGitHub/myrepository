@@ -1,0 +1,2 @@
+INFO:root:Ran with args: ('Dave', 23, 1), and kwargs={}
+INFO:root:Ran with args: ('GreatWell', 24, 3), and kwargs={}
