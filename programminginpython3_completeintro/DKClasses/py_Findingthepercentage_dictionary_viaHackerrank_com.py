@@ -18,5 +18,10 @@ for _ in range(n):
     student_marks[name] = scores
 query_name = input()
 query_scores = student_marks[query_name]
-#print("{0:.2f}".format(sum(query_scores)/(len(query_scores))))
+#print("Dictionary student_marks its Length is %d" % len (student_marks) )
+#print("Object list(query_scores) its Length is %d" % len(list( (query_scores)) ))
+#print("{0:.2f}".format(sum(query_scores)/( len (query_scores) )))
+#print("{0:.2f}".format(sum(query_scores)/( len (list (query_scores)) )))
+#working on below line as interesting things have been found (1) integer / float (2) ~ divisoin by zero, just digging why its zero, its not what we're expecting
+#print("{0:.2f}".format(sum(query_scores)/( len (list( (query_scores)) ) )))
 print("{0:.2f}".format(sum(query_scores)/3))
