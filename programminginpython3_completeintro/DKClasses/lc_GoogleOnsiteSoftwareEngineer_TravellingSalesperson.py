@@ -12,7 +12,8 @@
 # Python3 program to implement traveling salesman 
 # problem using naive approach. 
 from sys import maxsize 
-V = 4
+V = 5 
+"""V = 4"""
 # implementation of traveling Salesman Problem 
 def travellingSalesmanProblem(graph, s): 
     # store all vertex apart from source vertex 
@@ -31,8 +32,11 @@ def travellingSalesmanProblem(graph, s):
             current_pathweight += graph[k][vertex[i]] 
             k = vertex[i] 
         current_pathweight += graph[k][s] 
+        print("k= ", k, "   i= ", i)
         # update minimum 
+        """print("Before min_path = ", min_path)"""
         min_path = min(min_path, current_pathweight) 
+        print("After comparation, the newly-updated min_path has value of ", min_path)
         if not next_permutation(vertex): 
             break
     return min_path 
@@ -59,7 +63,10 @@ def next_permutation(L):
 # Driver Code 
 if __name__ == "__main__": 
     # matrix representation of graph 
-    graph = [[0, 10, 15, 20], [10, 0, 35, 25], 
-            [15, 35, 0, 30], [20, 25, 30, 0]] 
+    """graph = [[0, 10, 15, 20], [10, 0, 35, 25], 
+            [15, 35, 0, 30], [20, 25, 30, 0]] """
+    graph = [[0, 10, 15, 20, 100], [10, 0, 35, 25, 101], 
+            [15, 35, 0, 30, 1],[20, 25, 30, 0, 2], [100, 101, 1,2,0]] 
+            
     s = 0
     print(travellingSalesmanProblem(graph, s)) 
