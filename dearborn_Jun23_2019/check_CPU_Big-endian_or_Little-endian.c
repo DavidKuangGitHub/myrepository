@@ -18,7 +18,7 @@ int main()
         int i =1; 
         char *p = (char *) &i; 
         if (*p == 1)
-            printf("It is Little Endian");
+            printf("It is Little Endian.\n");
         else 
-            printf("It is Big Endian");
+            printf("It is Big Endian.\n");
 }
