@@ -23,5 +23,10 @@ class Solution02122020(object):
                     return strs[0][:i]
         return strs[0]
 
+
 mySolution02122020 = Solution02122020()
-print(mySolution02122020.longestCommonPrefix(["hello", "heabc", "hell"]))
+myList = ["flower","flow","flight"]
+    #["dog","racecar","car"]
+#["hello", "heabc", "hell"]
+print(*myList, sep = ", ")
+print("Longest Common Prefix of List shown above would be \""+mySolution02122020.longestCommonPrefix(myList)+"\".")
