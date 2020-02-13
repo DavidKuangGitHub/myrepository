@@ -1,4 +1,5 @@
-import slash, sys, time, logging
+import slash
+import sys, time, logging
 from slash_step.__init__ import STEP
 from menlo_test_lib.common_util.can_utilities import CanUtilities
 from menlo_test_lib.utils import verify
