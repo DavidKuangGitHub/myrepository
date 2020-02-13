@@ -9,6 +9,7 @@ Example2: Given nums = [0,0,1,1,1,2,2,3.3,4]. Length=5,and 0, 1, 2,3,4
 class SolutionFeb13c2020(object):
     def removeDuplicates(self, nums):
         if len(nums) == 1:
+            print(nums)
             return 1
         idx = 1
         while idx < len(nums):
@@ -16,9 +17,11 @@ class SolutionFeb13c2020(object):
                 nums.pop(idx)
                 idx -= 1
             idx += 1
+        print(nums)
         return len(nums)
 
 
 '''instanceOfSolutionFeb13c2020 = SolutionFeb13c2020()
-nums = [1, 1, 2]
-print(instanceOfSolutionFeb13c2020.removeDuplicates(nums))'''
+#nums =  [0,0,1,1,1,2,2,3.3,4]
+nums =  [1, 1, 2]
+print("Length of List = ", instanceOfSolutionFeb13c2020.removeDuplicates(nums))'''
