@@ -2,13 +2,16 @@
 '''
 import pytest
 
+
 @pytest.fixture()
 def before():
-  print("\nBefore each test")
-  
+    print("\nBefore each test")
+
+
 def test_1(before):
-  print("test_1()")
-  
+    print("test_1()")
+
+
 def test_2(before):
-  print("test_2")
-  assert 0
+    print("test_2")
+    assert True
