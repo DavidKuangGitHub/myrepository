@@ -27,7 +27,8 @@ class SolutionMar202020(object):
     return m
     
     
-instanceOfSolutionMar202020 = SolutionMar202020()
-#nums = [1,2,3,1]
+"""instanceOfSolutionMar202020 = SolutionMar202020()
+nums = [1,2,3,1]
 nums = [2,7,9,3,1]
 print("ResultOfThisSolution = ", instanceOfSolutionMar202020.rob(nums))
+"""
