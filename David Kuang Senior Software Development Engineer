@@ -2,7 +2,7 @@ David Kuang currently working with Ford as Senior Software Development Engineer
 -AI
 
 -Android https://developer.android.com/ use gmail accout as login
-(1) Android SDK (Software Development Kits) Platform-Tooll can be found here https://developer.android.com/studio/releases/platform-tools
+(1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
 It is a component for the Android SDK.
 It includes tools that interface with the Android platform, such as adb, fastboot, and systrace. 
 There tools are required for Android app development, because these tools are needed when you want to 
