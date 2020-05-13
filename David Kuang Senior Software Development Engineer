@@ -1,5 +1,21 @@
 David Kuang currently working with Ford as Senior Software Development Engineer
--AI
+-Artificial Intelligence (AI) see 'PCA_Ford_MachineLearning' application of SciKit-learn framework and Vehicle Data mining
+
+-AutomatedTestFramework-python-lettuce-AnalysisandDesign one of top 5 Automation Best Practice. I.E. steps.py
+from lettuce import *    (Note: pip install --upgrade pip, then pip install lettuce under python2) URL is [ https://www.google.com/search?sxsrf=ALeKk01smF9bmNQI7xvTUqpdMzufS2t8qg%3A1589382641923&source=hp&ei=8Q28XvOxNcWPtAbJnphw&q=github+lettuce&oq=github+lettuce&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxDqAhAnOgQIABBDOgcIABCDARBDOgUIABCDAToHCAAQFBCHAjoCCAA6CggAEIMBEBQQhwI6CAgAEBYQChAeUJk0WN1JYJNMaAFwAHgAgAF5iAHlCZIBAzkuNZgBAKABAaoBB2d3cy13aXqwAQo&sclient=psy-ab&ved=0ahUKEwiz7p_ej7HpAhXFB80KHUkPBg4Q4dUDCAg&uact=5 ]
+
+@step(u'Given There are numbers 2 and 3')
+def given_there_are_numbers_2_and_3(step):
+    world.a = 2
+    world.b = 3
+
+@step(u'When added together')
+def when_added_together(step):
+    world.total = world.a + world.b
+
+@step(u'Then they equal 5')
+def then_they_equal_5(step):
+    assert (world.total == 5), 'Amount should equal 5'
 
 -Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
