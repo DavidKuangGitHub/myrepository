@@ -21,6 +21,45 @@ def then_they_equal_5(step):
 
 (2) See seperate folder 'AutomatedTestFramework-pyunit-unittestboth2and3-AnalysisDesign' under this Repo 
 
+(3) Top2-AutomatedFramework-2019-pytest          >pytest
+=================================== test session starts ====================================
+platform darwin -- Python 3.7.3, pytest-5.0.1, py-1.8.0, pluggy-0.12.0
+rootdir: /Users/family/Downloads/Top2-AutomatedFramework-2019-pytest
+plugins: arraydiff-0.3, doctestplus-0.3.0, mock-3.1.0, openfiles-0.3.2, remotedata-0.3.1
+collected 109 items                                                                        
+
+tests/00_empty_test.py .                                                             [  0%]
+tests/01_basic_test.py .                                                             [  1%]
+tests/02_special_assertions_test.py ...                                              [  4%]
+tests/03_simple_fixture_test.py ..                                                   [  6%]
+tests/04_fixture_returns_test.py .                                                   [  7%]
+tests/05_yield_fixture_test.py .                                                     [  8%]
+tests/06_request_test.py .                                                           [  9%]
+tests/07_request_finalizer_test.py .                                                 [ 10%]
+tests/08_params_test.py ........                                                     [ 17%]
+tests/09_params-ception_test.py ................                                     [ 32%]
+tests/10_advanced_params-ception_test.py ................                            [ 46%]
+tests/11_mark_test.py ...                                                            [ 49%]
+tests/14_class_based_test.py .                                                       [ 50%]
+tests/15_advanced_class_test.py ..                                                   [ 52%]
+tests/16_scoped_and_meta_fixtures_test.py .......................................... [ 90%]
+........                                                                             [ 98%]
+tests/19_re_usable_mock_test.py ..                                                   [100%]
+
+===================================== warnings summary =====================================
+/Users/family/anaconda3/lib/python3.7/site-packages/_pytest/mark/structures.py:332
+  /Users/family/anaconda3/lib/python3.7/site-packages/_pytest/mark/structures.py:332: PytestUnknownMarkWarning: Unknown pytest.mark.db - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
+    PytestUnknownMarkWarning,
+
+/Users/family/anaconda3/lib/python3.7/site-packages/_pytest/mark/structures.py:332
+  /Users/family/anaconda3/lib/python3.7/site-packages/_pytest/mark/structures.py:332: PytestUnknownMarkWarning: Unknown pytest.mark.slow - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/latest/mark.html
+    PytestUnknownMarkWarning,
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+========================== 109 passed, 2 warnings in 0.69 seconds ==========================
+
+(4) Top1-AutomatedFrameworkPython3and2-in2019-Robot
+
 III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
 It is a component for the Android SDK.
