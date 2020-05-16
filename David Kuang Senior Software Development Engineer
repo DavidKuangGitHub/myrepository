@@ -1,7 +1,9 @@
 David Kuang currently working with Ford as Senior Software Development Engineer
--Artificial Intelligence (AI) see 'PCA_Ford_MachineLearning' application of SciKit-learn framework and Vehicle Data mining
+Major interests:
+I.  Artificial Intelligence (AI) see 'PCA_Ford_MachineLearning' application of SciKit-learn framework and Vehicle Data mining
 
--AutomatedTestFramework-python-lettuce-AnalysisandDesign one of top 5 Automation Best Practice. I.E. steps.py
+II. AutomationFramework-python-based
+(1)AutomatedTestFramework-python-lettuce-AnalysisandDesign one of top 5 Automation Best Practice. I.E. steps.py
 from lettuce import *    (Note: pip install --upgrade pip, then pip install lettuce under python2) URL is [ https://www.google.com/search?sxsrf=ALeKk01smF9bmNQI7xvTUqpdMzufS2t8qg%3A1589382641923&source=hp&ei=8Q28XvOxNcWPtAbJnphw&q=github+lettuce&oq=github+lettuce&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIIxDqAhAnOgQIABBDOgcIABCDARBDOgUIABCDAToHCAAQFBCHAjoCCAA6CggAEIMBEBQQhwI6CAgAEBYQChAeUJk0WN1JYJNMaAFwAHgAgAF5iAHlCZIBAzkuNZgBAKABAaoBB2d3cy13aXqwAQo&sclient=psy-ab&ved=0ahUKEwiz7p_ej7HpAhXFB80KHUkPBg4Q4dUDCAg&uact=5 ]
 
 @step(u'Given There are numbers 2 and 3')
@@ -17,7 +19,9 @@ def when_added_together(step):
 def then_they_equal_5(step):
     assert (world.total == 5), 'Amount should equal 5'
 
--Android https://developer.android.com/ use gmail accout as login
+(2) See seperate folder 'AutomatedTestFramework-pyunit-unittestboth2and3-AnalysisDesign' under this Repo 
+
+III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
 It is a component for the Android SDK.
 It includes tools that interface with the Android platform, such as adb, fastboot, and systrace. 
@@ -25,10 +29,10 @@ There tools are required for Android app development, because these tools are ne
 unlock your device bootloader and flash it with a new system image.
 (2) Android SDK Platform-Tools for Windows/Mac/Linux
 
--iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
+IV. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
 (1) xCode environment at local MacBook. Note: MacBook OS X version 10.14.4 is a must as per Apple
 (2) For example OS X EI Capitan upgrade could be one of these options.
 
--developer.huawei.com Senior Software Development Engineer 
+V.  developer.huawei.com Senior Software Development Engineer 
 
--Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
+VI. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
