@@ -78,6 +78,6 @@ VI. Documentation Expert especially Sphinx extracting property from source code 
 (1) pip install [-U] Sphinx         Note: Official web https://www.sphinx-doc.org/en/master/
 (2) mkdir DKSphinx, then 3 subfolders they are scripts, rst, and html. Note: Sample python scripts can be found via http://python.sheffner.com/
 (3) $ sphinx-quickstart  | sphinx-build -b html sourcedir builddir (Note: Dir Name could be a bit different) | make html
-(4) Deploy on a server to release the dynamic docs for the specific scripts that you need to document
+(4) Deploy on a server to release the dynamic docs for the specific scripts that you need to document Reference-Demo https://www.youtube.com/watch?v=qrcj7sVuvUA
 
 VII. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
