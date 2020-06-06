@@ -60,6 +60,21 @@ tests/19_re_usable_mock_test.py ..                                              
 
 (4) Top1-AutomatedFrameworkPython3and2-in2019-Robot
 
+(5) Python related APIs/tools/utilities
+[5.1] Documentation Expert especially Sphinx extracting property from source code to make dynamic Doc server
+<5.1.1> pip install [-U] Sphinx         Note: Official web https://www.sphinx-doc.org/en/master/
+<5.1.2> mkdir DKSphinx, then 3 subfolders they are scripts, rst, and html. Note: Sample python scripts can be found via http://python.sheffner.com/
+<5.1.3> $ sphinx-quickstart  | sphinx-build -b html sourcedir builddir (Note: Dir Name could be a bit different) | make html
+<5.1.4> Deploy on a server to release the dynamic docs for the specific scripts that you need to document Reference-Demo https://www.youtube.com/watch?v=qrcj7sVuvUA
+
+[5.2] Remote Python Call (RPyC) rpyc.readthedocs.io 
+rpyc_classic.py to launch RPyC server 
+<5.2.1> pip install RPyC and download/setup
+<5.2.2> $ python bin/rpyc_classic.py        [To launch a Server]
+import rpyc
+conn = rpyc.classic.connect("localhost")
+conn.modules.sys.stdout.write("HW David Kuang on Jun 5th 2020")
+
 III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
 It is a component for the Android SDK.
@@ -74,10 +89,4 @@ IV. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBo
 
 V.  developer.huawei.com Senior Software Development Engineer 
 
-VI. Documentation Expert especially Sphinx extracting property from source code to make dynamic Doc server
-(1) pip install [-U] Sphinx         Note: Official web https://www.sphinx-doc.org/en/master/
-(2) mkdir DKSphinx, then 3 subfolders they are scripts, rst, and html. Note: Sample python scripts can be found via http://python.sheffner.com/
-(3) $ sphinx-quickstart  | sphinx-build -b html sourcedir builddir (Note: Dir Name could be a bit different) | make html
-(4) Deploy on a server to release the dynamic docs for the specific scripts that you need to document Reference-Demo https://www.youtube.com/watch?v=qrcj7sVuvUA
-
-VII. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
+VI. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
