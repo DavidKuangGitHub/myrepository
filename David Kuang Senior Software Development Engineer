@@ -74,8 +74,13 @@ rpyc_classic.py to launch RPyC server
 import rpyc
 conn = rpyc.classic.connect("localhost")
 conn.modules.sys.stdout.write("HW David Kuang on Jun 5th 2020")
-<5.2.3>google RemoteProcedureCall here you go. 
-
+<5.2.3>google RemoteProcedureCall we call gprc.io. 
+Similarly as per official website gprc.io, pip install grpcio
+pip install grpcio-tools
+As per git-reference https://github.com/grpc/grpc, clone/setup/downloadputinrightplace
+cd ~/grpc/examples/python/helloworld
+python greeter_server.py
+python greeter_client.py
 
 III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
