@@ -67,13 +67,15 @@ tests/19_re_usable_mock_test.py ..                                              
 <5.1.3> $ sphinx-quickstart  | sphinx-build -b html sourcedir builddir (Note: Dir Name could be a bit different) | make html
 <5.1.4> Deploy on a server to release the dynamic docs for the specific scripts that you need to document Reference-Demo https://www.youtube.com/watch?v=qrcj7sVuvUA
 
-[5.2] Remote Python Call (RPyC) rpyc.readthedocs.io 
+[5.2] Remote Python Call (RPyC) rpyc.readthedocs.io and grpc.io thats googlePRC(Remote Procedure Call) framework. 
 rpyc_classic.py to launch RPyC server 
 <5.2.1> pip install RPyC and download/setup
 <5.2.2> $ python bin/rpyc_classic.py        [To launch a Server]
 import rpyc
 conn = rpyc.classic.connect("localhost")
 conn.modules.sys.stdout.write("HW David Kuang on Jun 5th 2020")
+<5.2.3>google RemoteProcedureCall here you go. 
+
 
 III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
