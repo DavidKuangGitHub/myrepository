@@ -80,7 +80,7 @@ pip install grpcio-tools
 As per git-reference https://github.com/grpc/grpc, clone/setup/downloadputinrightplace
 cd ~/grpc/examples/python/helloworld
 python greeter_server.py
-python greeter_client.py
+python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWiI may help from 3:27 out of 7:11 video long. 
 
 III.Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
