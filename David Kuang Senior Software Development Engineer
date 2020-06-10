@@ -88,7 +88,10 @@ It is a component for the Android SDK.
 It includes tools that interface with the Android platform, such as adb, fastboot, and systrace. 
 There tools are required for Android app development, because these tools are needed when you want to 
 unlock your device bootloader and flash it with a new system image.
-(2) Android SDK Platform-Tools for Windows/Mac/Linux
+(2) Android SDK Platform-Tools for Windows/Mac/Linux. Multiple AndroidStudio projects have been done with maintenance as per requested
+[2.1]MyApplicationDK1 that has been successfully deployed into my test Andriod Mobile Phone SamSung
+[2.2]MyAppDavidKuang2 to fix ADB server initialization issue and refence link https://www.youtube.com/watch?v=C_Ka7cKwXW0 regarding How to play a sound file using the MediaPlayer Class via AndriodStudio
+
 
 IV. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
 (1) xCode environment at local MacBook. Note: MacBook OS X version 10.14.4 is a must as per Apple
