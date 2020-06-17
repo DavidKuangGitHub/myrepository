@@ -82,7 +82,9 @@ cd ~/grpc/examples/python/helloworld
 python greeter_server.py
 python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWiI may help from 3:27 out of 7:11 video long. 
 
-III.Android https://developer.android.com/ use gmail accout as login
+III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
+
+IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
 It is a component for the Android SDK.
 It includes tools that interface with the Android platform, such as adb, fastboot, and systrace. 
@@ -93,10 +95,10 @@ unlock your device bootloader and flash it with a new system image.
 [2.2]MyAppDavidKuang2 to fix ADB server initialization issue and refence link https://www.youtube.com/watch?v=C_Ka7cKwXW0 regarding How to play a sound file using the MediaPlayer Class via AndriodStudio
 
 
-IV. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
+V. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
 (1) xCode environment at local MacBook. Note: MacBook OS X version 10.14.4 is a must as per Apple
 (2) For example OS X EI Capitan upgrade could be one of these options.
 
-V.  developer.huawei.com Senior Software Development Engineer 
+VI.  developer.huawei.com Senior Software Development Engineer 
 
-VI. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
+VII. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
