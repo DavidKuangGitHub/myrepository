@@ -65,7 +65,9 @@ tests/19_re_usable_mock_test.py ..                                              
 <5.1.1> pip install [-U] Sphinx         Note: Official web https://www.sphinx-doc.org/en/master/
 <5.1.2> mkdir DKSphinx, then 3 subfolders they are scripts, rst, and html. Note: Sample python scripts can be found via http://python.sheffner.com/
 <5.1.3> $ sphinx-quickstart  | sphinx-build -b html sourcedir builddir (Note: Dir Name could be a bit different) | make html
-<5.1.4> Deploy on a server to release the dynamic docs for the specific scripts that you need to document Reference-Demo https://www.youtube.com/watch?v=qrcj7sVuvUA
+<5.1.4> Deploy on a server to release the dynamic docs for the specific scripts that you need to document 
+Reference-Demo1 https://www.youtube.com/watch?v=qrcj7sVuvUA (Unix/Linux Box) 
+ReferenceDemo2 https://www.youtube.com/watch?v=MeaDUypDAoI (Windows and html as a standalone)
 
 [5.2] Remote Python Call (RPyC) rpyc.readthedocs.io and grpc.io thats googlePRC(Remote Procedure Call) framework. 
 rpyc_classic.py to launch RPyC server 
