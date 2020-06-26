@@ -1,5 +1,13 @@
 """leetcode_pythonq_38_CountandSay.py
-Given an integer n where 1<= n <= 30, generate the nth term of the count-and-say sequence.Like: 1=>1[one 1]; 2=>11[two 1s]; 3=>21; 4=>1211; 5=>111221 
+Given an integer n where 1<= n <= 30, generate the nth term of the count-and-say sequence.Like: 1=>1[one 1]; 2=>11[two 1s]; 3=>21; 4=>1211; 5=>111221;
+6=>312211; 7=>13112211 xing
+Because: I. 1
+II. frequency=1 value=1
+III. 21 as frequency=2 value=1
+IV. 1211 as frequency=1 value=2, then frequency=1 value=1
+V. 111221 as frequency=1 value=1, then frequency=1 value=2, continuously then frequency=2 value=1
+VI. 312211 as frequency=3 value=1, then frequency=2 value=2, continuously frequency=1 value=1
+VII. 13112211 as frequency=1 value=3, then frequency=1 value=1, continuously frequency=2 value=2, lastly frequency=2 value=1
 Example1:Input: 1
 Output: 1
 Explanation: This is the base case
