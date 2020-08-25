@@ -68,6 +68,8 @@ tests/19_re_usable_mock_test.py ..                                              
 <5.1.4> Deploy on a server to release the dynamic docs for the specific scripts that you need to document 
 Reference-Demo1 https://www.youtube.com/watch?v=qrcj7sVuvUA (Unix/Linux Box) 
 ReferenceDemo2 https://www.youtube.com/watch?v=MeaDUypDAoI (Windows and html as a standalone)
+<5.1.5> Best practice of Sphinx/Autodoc https://medium.com/@eikonomega/getting-started-with-sphinx-autodoc-part-1-2cebbbca5365 ; Besides, for underscore method doesn't show up, here is the link https://stackoverflow.com/questions/1149280/how-can-i-use-sphinx-autodoc-extension-for-private-methods; and/or https://stackoverflow.com/questions/28224554/sphinx-autodoc-skip-member-from-docstring
+i.e. Few .py files under https://github.com/DavidKuangGitHub/myrepository_US_Dearborn_MichigansinceJun23_2019/tree/master/programminginpython3_completeintro/worklaptop_python_scriptssinceFeb7th_2020 are perfectly implemented by following Sphinx styles.
 
 [5.2] Remote Python Call (RPyC) rpyc.readthedocs.io and grpc.io thats googlePRC(Remote Procedure Call) framework. 
 rpyc_classic.py to launch RPyC server 
