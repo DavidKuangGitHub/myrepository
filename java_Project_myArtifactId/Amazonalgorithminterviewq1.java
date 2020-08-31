@@ -3,8 +3,9 @@
  * n = 8, the missing number =6. should sort first.
  * */
 public class Amazonalgorithminterviewq1 {
-	static int getMissingNo(int a[], int n) {
-		int i, total;
+	static int getMissingNo(int a[]) {
+		int i, total, n;
+		n = a.length;
 		total = (n + 1) * (n + 2) / 2;
 		for (i = 0; i < n; i++)
 			total -= a[i];
@@ -12,13 +13,9 @@ public class Amazonalgorithminterviewq1 {
 	}
 
 	public static void main(String[] args) {
-		int dimension;
-		/*
-		 * int a[] = {1,2,4,5, 6}; dimension = 5;
-		 */
+		//int a[] = {1,2,4,5, 6};
 		int a[] = { 3, 7, 1, 2, 8, 4, 5 };
-		dimension = 7;
-		int miss = getMissingNo(a, dimension);
+		int miss = getMissingNo(a);
 		System.out.println("The missing number is " + miss + "!");
 	}
 }
