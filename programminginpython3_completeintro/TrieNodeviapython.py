@@ -56,4 +56,4 @@ if __name__ == "__main__":
     print(find_prefix(root, 'Da'))
     print(find_prefix(root, 'Dave'))
     """print(find_prefix(root, 'ford m'))"""
-    print(find_prefix(root, 'Ford M'))
+    print(find_prefix(root, 'Ford Mo'))
