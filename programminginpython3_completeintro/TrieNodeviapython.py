@@ -1,6 +1,6 @@
 """TrieNodeviapython.py
 Author: David Kuang Last updated: Sep 3rd 2020
-Description: Non-case-sensitive will be implemented if any
+Description: Non-case-sensitive will be implemented if there is a requirement
 """
 from typing import Tuple
 
@@ -56,4 +56,4 @@ if __name__ == "__main__":
     print(find_prefix(root, 'Da'))
     print(find_prefix(root, 'Dave'))
     """print(find_prefix(root, 'ford m'))"""
-    print(find_prefix(root, 'Ford Mo'))
+    print(find_prefix(root, 'Ford Mot'))
