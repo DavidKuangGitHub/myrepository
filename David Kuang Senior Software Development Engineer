@@ -86,9 +86,9 @@ cd ~/grpc/examples/python/helloworld
 python greeter_server.py
 python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWiI may help from 3:27 out of 7:11 video long.
 
-[5.3] Text-To-Speech (TTS) i.e. https://gtts.readthedocs.io/en/latest Google-Text-To-Speech
+[5.3] TTS and SpeechRecognition. Text-To-Speech (TTS) i.e. https://gtts.readthedocs.io/en/latest Google-Text-To-Speech; https://pypi.org/project/SpeechRecognition/ 
 pip install gTTS (Note: For some company-based VPN, there might be switched back and forth to do pip install)
-POC see texttospeech_TTS.py in my Repo as example.
+POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
