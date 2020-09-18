@@ -1,4 +1,4 @@
-David Kuang currently working with Ford as Senior Software Development Engineer
+David Kuang currently working with Ford as Senior Software Development Engineer / Production Development-Deployment Engineer
 Major interests:
 I.  Artificial Intelligence (AI) see 'PCA_Ford_MachineLearning' application of SciKit-learn framework and Vehicle Data mining
 
@@ -84,7 +84,11 @@ pip install grpcio-tools
 As per git-reference https://github.com/grpc/grpc, clone/setup/downloadputinrightplace
 cd ~/grpc/examples/python/helloworld
 python greeter_server.py
-python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWiI may help from 3:27 out of 7:11 video long. 
+python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWiI may help from 3:27 out of 7:11 video long.
+
+[5.3] TTS and SpeechRecognition. Text-To-Speech (TTS) i.e. https://gtts.readthedocs.io/en/latest Google-Text-To-Speech; https://pypi.org/project/SpeechRecognition/ 
+pip install gTTS (Note: For some company-based VPN, there might be switched back and forth to do pip install)
+POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
