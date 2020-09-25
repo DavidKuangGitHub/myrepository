@@ -91,8 +91,10 @@ pip install gTTS (Note: For some company-based VPN, there might be switched back
 POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 
 [5.4] python enhancement
-<5.4.1> i.e. numpy_matplotlib_dot_pyplotasplt_scipy_dot_io_dot_wavfile.py in my Repo
+<5.4.1> i.e. importnumpyasnp.py and numpy_matplotlib_dot_pyplotasplt_scipy_dot_io_dot_wavfile.py in my Repo
 <5.4.2> Python3/Python2 convert, __future__, future, six and builtins; import pyaudio, import pydub, import wave can see example importpyaudio_playWAVEfile.py uploaded
+<5.4.3> Embedded development. For example AUX cable as audio input cable, that should be connected with audio generator (i.e. Vehicle InfoTainment system). see checkdevice.py 
+Use Device Manager ensure 'Realtek Audio' icon enabled, then right-click icon-Speaker to open 'Volume Mixer', ensure Device and Applications working properly.
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
