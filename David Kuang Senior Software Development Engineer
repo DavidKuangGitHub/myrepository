@@ -90,7 +90,9 @@ python greeter_client.py        Note: https://www.youtube.com/watch?v=GwKz4LGeWi
 pip install gTTS (Note: For some company-based VPN, there might be switched back and forth to do pip install)
 POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 
-[5.4] python enhancement, i.e. numpy_matplotlib_dot_pyplotasplt_scipy_dot_io_dot_wavfile.py in my Repo
+[5.4] python enhancement
+<5.4.1> i.e. numpy_matplotlib_dot_pyplotasplt_scipy_dot_io_dot_wavfile.py in my Repo
+<5.4.2> Python3/Python2 convert, __future__, future, six and builtins; import pyaudio, import pydub, import wave can see example importpyaudio_playWAVEfile.py uploaded
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
