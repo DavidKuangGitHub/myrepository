@@ -25,6 +25,7 @@ plotter.subplots_adjust(hspace=1)
 # Time domain representation for sine wave 1
 axis[0].set_title('Sine wave with a frequency of 4 Hz')
 axis[0].plot(time, amplitude1)
+#axis[0].plot(time, amplitude1, None)
 axis[0].set_xlabel('Time')
 axis[0].set_ylabel('Amplitude')
 
@@ -56,4 +57,5 @@ axis[3].set_title('Fourier transform depicting the frequency components')
 axis[3].plot(frequencies, abs(fourierTransform))
 axis[3].set_xlabel('Frequency')
 axis[3].set_ylabel('Amplitude')
+plotter.tight_layout()
 plotter.show()
