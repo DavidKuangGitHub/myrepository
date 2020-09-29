@@ -96,6 +96,18 @@ POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 <5.4.3> Embedded development. For example AUX cable as audio input cable, that should be connected with audio generator (i.e. Vehicle InfoTainment system). see checkdevice.py 
 Use Device Manager ensure 'Realtek Audio' icon enabled, then right-click icon-Speaker to open 'Volume Mixer', ensure Device and Applications working properly.
 
+[5.5] Appium is an open source test automation framework for use with native, hybrid and mobile web apps. Appium drives iOS, Andriod, and Windows apps using the WebDriver protocol.
+http://appium.io/ 
+<5.5.1> Mobly (1) https://libraries.io/github/google/mobly (2) https://jeffhermanmobly.readthedocs.io/en/latest/tutorial.html 
+Mobly is a Python-based test framework that specializes in supporting test cases that require multiple devices, complex environment, or custom hardware setups.
+pip install mobly
+or { git clone https://github.com/google/mobly.git
+cd mobly
+python setup.py install }
+
+<5.5.2> VHAT (Virtual HMI Automation Toolset https://www.controleng.com/articles/tools-for-hmi-applicationsincludes-online-extras/ ); 
+APK (Android Package Kit, Andriod application package https://en.wikipedia.org/wiki/Android_application_package ) as of Vehicle Infotainment System
+
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
 IV. Android https://developer.android.com/ use gmail accout as login
