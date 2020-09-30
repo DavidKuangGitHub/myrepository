@@ -107,6 +107,15 @@ python setup.py install }
 
 <5.5.2> VHAT (Virtual HMI Automation Toolset https://www.controleng.com/articles/tools-for-hmi-applicationsincludes-online-extras/ ); 
 APK (Android Package Kit, Andriod application package https://en.wikipedia.org/wiki/Android_application_package ) as of Vehicle Infotainment System
+<5.5.3> Architect for Software Application System of Andriod for example i.e. (1) https://source.android.com/devices/architecture 
+(2) Andriod is an open source operating system for mobile devices and a corresponding open source project led by Google. AOSP (Android Open Source Project)
+^
+|   Apps with its exhancement to iOS
+|   Android Framework
+|   Native Libraries
+|   Android Runtime
+|   HAL/HIDL
+|   Linux Kernel
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
 
