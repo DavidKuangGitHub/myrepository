@@ -97,13 +97,36 @@ POC see texttospeech_TTS.py and speechRecognition_hw.py in my Repo as examples.
 Use Device Manager ensure 'Realtek Audio' icon enabled, then right-click icon-Speaker to open 'Volume Mixer', ensure Device and Applications working properly.
 
 [5.5] Appium is an open source test automation framework for use with native, hybrid and mobile web apps. Appium drives iOS, Andriod, and Windows apps using the WebDriver protocol.
-http://appium.io/ 
-<5.5.1> Mobly (1) https://libraries.io/github/google/mobly (2) https://jeffhermanmobly.readthedocs.io/en/latest/tutorial.html 
+(1) http://appium.io/  (2) https://www.youtube.com/watch?v=sd0Cy1VYWzU (Automate Mobile application using Appium Selenium) (3)
+<5.5.1> Mobly (1) https://libraries.io/github/google/mobly (2) https://jeffhermanmobly.readthedocs.io/en/latest/tutorial.html
+(3) https://github.com/google/mobly/blob/master/docs/tutorial.md
 Mobly is a Python-based test framework that specializes in supporting test cases that require multiple devices, complex environment, or custom hardware setups.
-pip install mobly
-or { git clone https://github.com/google/mobly.git
-cd mobly
-python setup.py install }
+pip install mobly refer (1) sample_configMobly.yml 
+TestBeds:
+  # A test bed where adb will find Android devices.
+  - Name: SampleTestBed
+    Controllers:
+        AndroidDevice: '*'
+        
+(2) Moblyhello_world_test.py still working on
+"""Moblyhello_world_test.py"""
+from mobly import base_test
+from mobly import test_runner
+from mobly.controllers import android_device
+
+class HelloWorldTest(base_test.BaseTestClass):
+  def setup_class(self):
+    self.ads = self.register_controller(android_device)
+    self.dut = self.ads[0]
+    self.dut.load_snippet('mbs', 'com.google.android.mobly.snippet.bundled')
+
+  def test_hello(self):
+    self.dut.mbs.makeToast('Hello World David Kuang!')
+
+if __name__ == '__main__':
+    test_runner.main()
+
+To run $python Moblyhello_world_test.py -c sample_configMobly.yml
 
 <5.5.2> VHAT (Virtual HMI Automation Toolset https://www.controleng.com/articles/tools-for-hmi-applicationsincludes-online-extras/ ); 
 APK (Android Package Kit, Andriod application package https://en.wikipedia.org/wiki/Android_application_package ) as of Vehicle Infotainment System
