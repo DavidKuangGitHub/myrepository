@@ -132,6 +132,30 @@ To run $python Moblyhello_world_test.py -c sample_configMobly.yml
 APK (Android Package Kit, Andriod application package https://en.wikipedia.org/wiki/Android_application_package ) as of Vehicle Infotainment System
 <5.5.3> Architect for Software Application System of Andriod for example i.e. vehicle_component, AOSP, AOSw/oP 
 (1) https://source.android.com/devices/architecture xing 
+Demo: AndroidAutomotiveMediaService1dk under X1CarbonThinkPad c:/Users/yhk/AndroidStudioProjects/ with other AndroidOpenSourceProjects (AOSPs) as well 
+1. Glossary: 
+2. Summary: (2.1)Background (2.2)Purpose (2.3) Scope
+3. Requirements
+4. Alternatives
+5. HLD (High Level Design) - System level
+6. HLD Hardware through Kernel Layer
+7. HLD Vendor Implementation
+8. HLD Service and Application Layer
+9. HLD Other Non-Target Software
+...
+13. Performance
+14. Stability Monitor
+15. Security Features
+16. Testing Strategy
+17. Dependencies and Risks
+18. FMA Considerations
+19. Development Considerations
+20. Future Considerations
+21. References
+22. Open Questions/Issues
+23. Review Checklist
+24. Version History
+
 (2) Andriod is an open source operating system for mobile devices and a corresponding open source project led by Google. AOSP (Android Open Source Project)
 ^
 |   Apps with its exhancement to iOS
