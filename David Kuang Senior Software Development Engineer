@@ -167,7 +167,10 @@ Demo: AndroidAutomotiveMediaService1dk under X1CarbonThinkPad c:/Users/yhk/Andro
 |   HAL/HIDL
 |   Linux Kernel
 
-III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
+III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
+- JDK installation; JAR file(s)/package(s) installation ie. Lombok; Node.js; and Docker and Docker Compose or MariaDB 
+- local synced-up with Git Repo
+- Dual-Deployment: Staging and Production with fully testing
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
