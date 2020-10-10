@@ -167,7 +167,9 @@ Demo: AndroidAutomotiveMediaService1dk under X1CarbonThinkPad c:/Users/yhk/Andro
 |   HAL/HIDL
 |   Linux Kernel
 
-III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
+III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
+1. Spring 2. An 3. Node.js 4. MariaDB 5. Docker/Docker Compose
+working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
 - JDK installation; JAR file(s)/package(s) installation ie. Lombok; Node.js; and Docker and Docker Compose or MariaDB 
 - local synced-up with Git Repo
 - Dual-Deployment: Staging and Production with fully testing
