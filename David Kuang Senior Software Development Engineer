@@ -170,7 +170,7 @@ Demo: AndroidAutomotiveMediaService1dk under X1CarbonThinkPad c:/Users/yhk/Andro
 |   Linux Kernel
 
 III. Database Application Developer(DAD) certified i.e. J2EE/JavaEE  
-1. Spring 2. Angular 3. Node.js 4. MariaDB RDBMS 5. Docker/Docker Compose
+1. Spring 2. Angular 3. Node.js 4. MariaDB RDBMS 5. Docker/Docker-Compose that has a built-in instance of DB up and running
 working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
 - JDK installation; JAR file(s)/package(s) installation ie. Lombok; Node.js; and Docker and Docker Compose or MariaDB 
 - local synced-up with Git Repo
