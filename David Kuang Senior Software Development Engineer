@@ -193,4 +193,9 @@ V. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBoo
 
 VI.  developer.huawei.com Senior Software Development Engineer 
 
-VII. Other interests, i.e. https://www.kaggle.com/ Proof Of Concept POC
+VII. Other interests, i.e.(1) https://www.kaggle.com/ Proof Of Concept POC (2) matlab (Matrix_Lab) is a proprietary multi-paradigm programming language .m file(s). 
+Matlib numerical computing environment is developed by MathWorks - https://www.mathworks.com/pricing-licensing.html?prodcode=ML&intendeduse=student
+Tutorial video https://www.youtube.com/watch?v=qGiKv3-02vw&t=247s helloworld.m 
+disp('Hello World, DK');
+In the MATLAB Command Line, launch >>helloworld
+Hello World, DK
