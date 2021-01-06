@@ -1,2 +1,2 @@
 #!/usr/bin/env python3
-print("HW python3 on May 29th Wed 2019!!")
+print("HW python3 updated on Dec 10th 2020 !!!")

@@ -2,7 +2,7 @@ package testDK1JavaClasses;
 
 import softwaredefinedvehicle_v2.Vehicle;
 
-public class testVihicle {
+public class testVehicle {
 
 	public static void main(String[] args) {
 		Vehicle myVehicle = new Vehicle();

@@ -1,4 +1,4 @@
-package eclipseJEE2020_6dk1;
+//package eclipseJEE2020_6dk1;
 
 /*Acodingq9_wayswithcoinsandatotalamount.java
 How many ways can you make changes with coins and a total amount
