@@ -175,6 +175,11 @@ working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
 - JDK installation; JAR file(s)/package(s) installation ie. Lombok; Node.js; and Docker and Docker Compose or MariaDB 
 - local synced-up with Git Repo
 - Dual-Deployment: Staging and Production with fully testing
+6. Visual Studio Professional 2019 (microsoft.com & developer.microsoft.com/en-us/), project platform BlueScape (bluesacpe.com). Multiple platforms: 
+(1)Azure (2) GitHub (3).NET (ASP.NET included as well) (4) Microsoft (Office?) 365 (5) Power Apps (6) Mixed Reality
+Built projects: (1) C# Console App(.NET core)/Forms Application (2) ASP.NET Core Web Application alternatively 
+(3) via nam.delve.office, using acadamic-account, https://us.create.powersapps.com built demo app being associated with onedrive (personal) Excel spreadsheet datasource 
+(4) Sharepoint RESTful API as data source
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
