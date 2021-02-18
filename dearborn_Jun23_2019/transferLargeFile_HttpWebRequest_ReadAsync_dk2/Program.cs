@@ -16,7 +16,14 @@ namespace transferLargeFile_HttpWebRequest_ReadAsync_dk2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            AddTheFolderIfNotExist();
             Application.Run(new Form1());
+        }
+        
+        private static void AddTheFolderIfNotExist()
+        {
+            //throw new NotImplementedException();
+            System.IO.Directory.CreateDirectory("C/temp_dk/");
         }
     }
 }
