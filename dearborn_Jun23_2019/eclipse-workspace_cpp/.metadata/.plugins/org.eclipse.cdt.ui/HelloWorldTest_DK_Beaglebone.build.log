@@ -1,0 +1,11 @@
+15:18:32 **** Build of configuration Debug for project HelloWorldTest_DK_Beaglebone ****
+make all 
+Building file: ../src/HelloWorldTest_DK_Beaglebone.cpp
+/bin/sh: arm-linux-gnueabi-g++: command not found
+make: *** [src/HelloWorldTest_DK_Beaglebone.o] Error 127
+Invoking: Cross G++ Compiler
+arm-linux-gnueabi-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/HelloWorldTest_DK_Beaglebone.d" -MT"src/HelloWorldTest_DK_Beaglebone.o" -o "src/HelloWorldTest_DK_Beaglebone.o" "../src/HelloWorldTest_DK_Beaglebone.cpp"
+"make all" terminated with exit code 2. Build might be incomplete.
+
+15:18:32 Build Failed. 2 errors, 0 warnings. (took 77ms)
+

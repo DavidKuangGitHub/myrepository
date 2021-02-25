@@ -1,0 +1,15 @@
+//============================================================================
+// Name        : HelloWorldTest_DK_Beaglebone.cpp
+// Author      : David Kuang
+// Version     :
+// Copyright   : Your copyright notice_YHK0420_2019
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "HW_Beaglebone_DK_books" << endl; // prints HW_Beaglebone_DK_books
+	return 0;
+}

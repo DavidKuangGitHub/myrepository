@@ -1,0 +1,6 @@
+16:55:24 **** Incremental Build of configuration Debug for project hw_cpp_project_MacOSX_GCC ****
+make all 
+make: Nothing to be done for `all'.
+
+16:55:24 Build Finished. 0 errors, 0 warnings. (took 245ms)
+

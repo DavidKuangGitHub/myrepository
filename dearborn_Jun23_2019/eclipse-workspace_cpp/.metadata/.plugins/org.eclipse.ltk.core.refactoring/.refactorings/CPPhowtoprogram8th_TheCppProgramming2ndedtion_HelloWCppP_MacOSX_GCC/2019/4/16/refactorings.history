@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CPPhowtoprogram8th_TheCppProgramming2ndedtion_HelloWCppP_MacOSX_GCC/src/Leetcode_num79wordsearch.cpp&apos; to &apos;Leetcode_num78.cpp&apos;" description="Rename resource &apos;Leetcode_num79wordsearch.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Leetcode_num79wordsearch.cpp" name="Leetcode_num78.cpp" stamp="1555204294274" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hw_cpp_project_MacOSX_GCC/src/lf_CPP_howtoprogram_fig02_05_Jul3rd_2019.cpp&apos; to &apos;lf_CPP_howtoprogram_cppsourcefilecanbefoundwithmain_method_Jul3rd_2019.cpp&apos;" description="Rename resource &apos;lf_CPP_howtoprogram_fig02_05_Jul3rd_2019.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lf_CPP_howtoprogram_fig02_05_Jul3rd_2019.cpp" name="lf_CPP_howtoprogram_cppsourcefilecanbefoundwithmain_method_Jul3rd_2019.cpp" stamp="1562185213568" updateReferences="true"/>
+</session>

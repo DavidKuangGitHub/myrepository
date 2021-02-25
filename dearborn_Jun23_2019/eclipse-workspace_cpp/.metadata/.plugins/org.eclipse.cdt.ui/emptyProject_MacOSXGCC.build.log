@@ -1,0 +1,20 @@
+07:02:26 **** Build of configuration Debug for project emptyProject_MacOSXGCC ****
+make all 
+Building file: ../CppClass.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CppClass.d" -MT"CppClass.o" -o "CppClass.o" "../CppClass.cpp"
+Finished building: ../CppClass.cpp
+ 
+Building target: emptyProject_MacOSXGCC
+Invoking: MacOS X C++ Linker
+g++  -o "emptyProject_MacOSXGCC"  ./CppClass.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [emptyProject_MacOSXGCC] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+07:02:28 Build Failed. 2 errors, 0 warnings. (took 1s.439ms)
+
