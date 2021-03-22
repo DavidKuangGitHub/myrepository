@@ -184,7 +184,7 @@ https://us.create.powersapps.com built demo app being associated with onedrive (
 7. Software Architect for instance Atlassian.com localhost:2990/jira/rest/ admin/admin after atlas-run with Atlassian SDK installation. 
 (1) https://docs.atlassian.com/software/jira/docs/api/REST/8.5.12/ RESTful APIs application with JIRA [Confluence as well with 1900 port]
 (2) GitHub docs-link https://docs.github.com/en/rest both public https://api.github.com/users/ and enterprise ie. https://api.ford.github.com  
-(3) Tools [postman] or  [postman](https://www.postman.com/downloads/)
+* [postman](https://www.postman.com/downloads/)
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
