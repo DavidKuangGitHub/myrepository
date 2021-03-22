@@ -181,7 +181,10 @@ working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
 Built projects: (1) C# Console App(.NET core)/Forms Application (2) ASP.NET Core Web Application (3) via nam.delve.office, using acadamic-account, 
 https://us.create.powersapps.com built demo app being associated with onedrive (personal) Excel spreadsheet datasource 
 (4) Sharepoint RESTful API as data source
-7. Software Architect for instance Atlassian.com localhost:2990/jira/rest/ admin/admin after atlas-run with Atlassian SDK installation 
+7. Software Architect for instance Atlassian.com localhost:2990/jira/rest/ admin/admin after atlas-run with Atlassian SDK installation. 
+(1) https://docs.atlassian.com/software/jira/docs/api/REST/8.5.12/ RESTful APIs application with JIRA [Confluence as well with 1900 port]
+(2) GitHub docs-link https://docs.github.com/en/rest both public https://api.github.com/users/ and enterprise ie. https://api.ford.github.com  
+(3) Tools [postman] or  [postman](https://www.postman.com/downloads/)
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
@@ -192,7 +195,6 @@ unlock your device bootloader and flash it with a new system image.
 (2) Android SDK Platform-Tools for Windows/Mac/Linux. Multiple AndroidStudio projects have been done with maintenance as per requested
 [2.1]MyApplicationDK1 that has been successfully deployed into my test Andriod Mobile Phone SamSung
 [2.2]MyAppDavidKuang2 to fix ADB server initialization issue and refence link https://www.youtube.com/watch?v=C_Ka7cKwXW0 regarding How to play a sound file using the MediaPlayer Class via AndriodStudio
-
 
 V. iOS as Apple Development Engineer in IBM Canada with the most advanced MacBook equipped as senior IT professional
 (1) xCode environment at local MacBook. Note: MacBook OS X version 10.14.4 is a must as per Apple
