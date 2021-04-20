@@ -182,7 +182,7 @@ Built projects: (1) C# Console App(.NET core)/Forms Application (2) ASP.NET Core
 https://us.create.powersapps.com built demo app being associated with onedrive (personal) Excel spreadsheet datasource 
 (4) Sharepoint RESTful API as data source
 7. Software Architect for instance Atlassian.com localhost:2990/jira/rest/ admin/admin after atlas-run with Atlassian SDK installation. 
-(1) https://docs.atlassian.com/software/jira/docs/api/REST/8.5.12/ RESTful APIs application with JIRA [Confluence as well with 1900 port]
+(1) https://docs.atlassian.com/software/jira/docs/api/REST/8.5.12/ RESTful APIs application with JIRA [Confluence as well with 1900 port], parse JSON string/file to Object(s) derive all the values that are required from requirements
 (2) GitHub docs-link https://docs.github.com/en/rest both public https://api.github.com/users/ and enterprise ie. https://api.ford.github.com  
 * [postman](https://www.postman.com/downloads/)
 
