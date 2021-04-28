@@ -1,6 +1,6 @@
 David Kuang, Senior Software Development Engineer, currently working with Ford as Production Development / Deployment Engineer of SDV.
 
-Major interests: Vehicle ECUs(Electronic Control Unit) with objective: deliver best in class Ford IVI, Andriod, Audio and Wireless Systems/Platforms/Component that're needed. 
+Major interests: Vehicle ECUs(Electronic Control Unit) with objective: deliver best in class Ford IVI, Andriod, Audio and Wireless Systems/Platforms/Component that're needed for Enterprise Connectivity. 
 
 According to wikipedia link (https://en.wikipedia.org/wiki/Electronic_control_unit), ECU is an embedded system in automotive electronics that controls one or more of the electrical system(s) and/or subsystem(s) in vehicle.
 
@@ -176,8 +176,8 @@ working on PSR (PopIn Survey Replacement) over RQ (RetroQuest), wen-zan
 - local synced-up with Git Repo
 - Dual-Deployment: Staging and Production with fully testing
 6. Visual Studio Professional 2019 (C# microsoft.com & developer.microsoft.com/en-us/ & PowerApps Dev/Quick Prototype).There're multiple platforms below: 
-(1)Azure (2) GitHub (3).NET (ASP.NET included) (4) Microsoft Office 365 with (5) Power Apps ie. link (https://www.youtube.com/watch?v=QhGV4AhCFRc ) 
-(6) Mixed Reality plus project platform BlueScape (bluesacpe.com)
+(1)Azure (2)JIRA/Confluence [See Point#7 for details] (3) GitHub (4).NET (ASP.NET included) (5) Microsoft Office 365 with (6) Power Apps ie. link (https://www.youtube.com/watch?v=QhGV4AhCFRc ) 
+(7) Mixed Reality plus project platform BlueScape (bluesacpe.com) in terms of Vehicle System Design/Design Thinking with Software Architecture mapping etc
 Built projects: (1) C# Console App(.NET core)/Forms Application (2) ASP.NET Core Web Application (3) via nam.delve.office, using acadamic-account, 
 https://us.create.powersapps.com built demo app being associated with onedrive (personal) Excel spreadsheet datasource 
 (4) Sharepoint RESTful API as data source
