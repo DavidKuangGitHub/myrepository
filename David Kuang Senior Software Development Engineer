@@ -186,6 +186,9 @@ https://us.create.powersapps.com built demo app being associated with onedrive (
 (1) https://docs.atlassian.com/software/jira/docs/api/REST/8.5.12/ RESTful APIs application with JIRA [Confluence as well with 1900 port], parse JSON string/file to Object(s) derive all the values that are required from requirements
 (2) GitHub docs-link https://docs.github.com/en/rest both public https://api.github.com/users/ and enterprise ie. https://api.ford.github.com  
 * [postman](https://www.postman.com/downloads/)
+(3) GraphQL (https://graphql.org/) for GitHub Enterprise Server, like GraphQL is a query language for APIs and a runtime env for fulfilling those queries 
+with our existing data. GraphQL provides a complete and understandable description of the data in APIs, gives us the power to ask for exactly what clients need
+and makes life easier to evolve APIs over time, and enables powerful developing toolsets and deploy environments. What you see is what you get!! 
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
