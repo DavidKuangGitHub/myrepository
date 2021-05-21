@@ -189,31 +189,32 @@ https://us.create.powersapps.com built demo app being associated with onedrive (
 (3) GraphQL (https://graphql.org/) for GitHub Enterprise Server, like GraphQL is a query language for APIs and a runtime env for fulfilling those queries 
 with our existing data. GraphQL provides a complete and understandable description of the data in APIs, gives us the power to ask for exactly what clients need
 and makes life easier to evolve APIs over time, and enables powerful developing toolsets and deploy environments. What you see is what you get!! 
-using System;       /*Needs to be debug in VS2019 Dev Env*/
+using System; //NuGet Solution should install GraphQL by Joe McBride (GraphQL for .NET), GraphQL.SystemTextJson by GraphQL.System.TextJson (System.Text.Json serializer for GraphQL.NET)
 using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Types;
-using GraphQL.SystemTextJson; // First add PackageReference to GraphQL.SystemTextJson
- 
+using GraphQL.SystemTextJson;
+
 public class Program
 {
-  public static async Task Main(string[] args)
-  {
-    var schema = Schema.For(@"
+    public static async Task Main(string[] args)
+    {
+        var schema = Schema.For(@"
       type Query {
         hello: String
       }
     ");
- 
-    var json = await schema.ExecuteAsync(_ =>
-    {
-      _.Query = "{ hello }";
-      _.Root = new { Hello = "Hello World!" };
-    });
- 
-    Console.WriteLine(json);
-  }
+
+        var json = await schema.ExecuteAsync(_ =>
+        {
+            _.Query = "{ hello }";
+            _.Root = new { Hello = "HW, DK on May 21th 2021!" };
+        });
+
+        Console.WriteLine(json);
+    }
 }
+
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
