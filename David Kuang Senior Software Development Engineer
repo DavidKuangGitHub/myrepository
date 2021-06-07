@@ -214,7 +214,7 @@ public class Program
         Console.WriteLine(json);
     }
 }
-
+(4)HarmonyOS(https://gitee.com/organizations/openharmony/projects), ChromeOS(https://www.chromium.org/chromium-os), and https://trinket.io/sense-hat Emulator&Simulator 
 
 IV. Android https://developer.android.com/ use gmail accout as login
 (1) Android SDK (Software Development Kits) Platform-Tool can be found here https://developer.android.com/studio/releases/platform-tools
